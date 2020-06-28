@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0075CE</color>
+    <color name="colorPrimaryDark">#0075CE</color>
+    <color name="colorAccent">#0075CE</color>
+    <color name="colorSplash">#FFF</color>
+    <color name="fogortpassword">#1A0DAB</color>
+    <color name="colorLogo">#3700b3</color>
+    <color name="colorLyrics">#000</color>
+</resources>

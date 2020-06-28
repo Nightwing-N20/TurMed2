@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CodigoActivacion"
+    android:background="#fff">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@android:color/transparent"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:src="@drawable/logo32"
+                android:layout_marginTop="5dp"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="#fff"/>
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#000"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:text="TurMed"
+                    android:textSize="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="48dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:id="@+id/txttitulobienvenido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/welcome"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#000">
+
+        </TextView>
+        <TextView
+            android:id="@+id/txtbienvenidonombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neyra Tellez Cano"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:textColor="#000">
+            
+        </TextView>
+
+        <TextView
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="35dp"
+            android:text="Para terminar tu registro ingresa el codigo de activacion que llego a la cuenta de correo que registraste"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textColor="#000">
+
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/edtcodigo"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edittextstle"
+            android:ellipsize="start"
+            android:ems="20"
+            android:gravity="center_vertical"
+            android:inputType="textWebEmailAddress"
+            android:textColor="#000">
+
+        </EditText>
+        <Button
+            android:id="@+id/btnactivacion"
+            android:layout_width="270dp"
+            android:layout_height="70dp"
+            android:text="@string/activeandlogin"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:textColor="#000"
+            android:background="#50BEBEBE">
+
+        </Button>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

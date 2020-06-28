@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">TurMed</string>
+    <string name="Login">Iniciar Sesion</string>
+    <string name="Username">Usuario(Correo electronico o Telefono)</string>
+    <string name="Password">Contraseña</string>
+    <string name="Logo">Logo</string>
+    <string name="Forgotassword">¿Olvidaste tu contraseña?</string>
+    <string name="buttonLogin">Iniciar Sesion</string>
+    <string name="youdonthaveanaccountregisterhere">¿No tienes cuenta? REGISTRATE AQUI</string>
+    <string name="name">Nombre</string>
+    <string name="surnames">Apellidos</string>
+    <string name="email">Correo electronico</string>
+    <string name="phonenumber">Telefono</string>
+    <string name="confirmpassword">Confirmar contraseña</string>
+    <string name="signup">Registrar</string>
+    <string name="registry">Registro</string>
+    <string name="termsandconditions">Acepto las politicas de privacidad\n Terminos y Condiciones</string>
+    <string name="toregister">Registrar</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="activeandlogin">Activar e Ingresar</string>
+    <string name="today">Hoy</string>
+    <string name="tomorrow">Manaña</string>
+    <string name="otherdate">Otra fecha</string>
+    <string name="setting">Configuraciones</string>
+    <string name="perfil">Perfil</string>
+    <string name="consulting_room">Consultorio</string>
+    <string name="schedule">Horarios</string>
+    <string name="specialty">Especialidad</string>
+    <string name="dating_duration">Duracion Citas</string>
+    <string name="currency">Moneda</string>
+    <string name="appointment_cost">Costo Cita</string>
+    <string name="save">Guardar</string>
+    <string name="Type_the_address_and_press_locate_or_locate_on_the_map_and_press_get">Tecle la dirección y presione ubicar \n o \n ubicar en el mapa y presione obtner</string>
+    <string name="address">Dirección</string>
+    <string name="locate">Ubicar</string>
+    <string name="monday">Lunes</string>
+    <string name="Tuesday">Martes</string>
+    <string name="wednesday">Miercoles</string>
+    <string name="thursday">Jueves</string>
+    <string name="friday">Viernes</string>
+    <string name="saturday">Sabado</string>
+    <string name="sunday">Domingo</string>
+    <string name="select_date">Seleccione fecha</string>
+    <string name="consult">Consultar</string>
+    <string name="set_your_hours_of_operation">Configure sus horarios de atención</string>
+
+    <string name="map_key" translatable="false">AIzaSyDCmVfHvKNP14ST584TXfVHdIzeeWjBKnE</string>
+
+</resources>

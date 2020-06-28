@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navegacion.Configuracion.Perfil">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Configuraciones"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:textAlignment="center">
+        </TextView>
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tabcontenido"
+            android:layout_marginTop="30dp"
+            tools:ignore="ExtraText">
+            <!-- TODO:ESPECIALIDAD-->
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/specialty"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="#000">
+                </TextView>
+
+                <Spinner
+                    android:id="@+id/spespecialidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="8dp">
+
+                </Spinner>
+            </TableRow>
+
+
+            ----------------- DURACION CITAS ------------------
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/dating_duration"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="#000"
+                    android:layout_marginTop="30dp">
+                </TextView>
+                <Spinner
+                    android:id="@+id/spduracion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="30dp">
+                </Spinner>
+            </TableRow>
+            ----------------- COSTO CITA ------------------
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/appointment_cost"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:padding="3dp"
+                    android:textColor="#000"
+                    android:layout_marginTop="30dp"
+                    >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/edtcostocita"
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/edittextstle"
+                    android:layout_marginTop="30dp"
+                    android:padding="3dp"
+                    >
+                </EditText>
+            </TableRow>
+            ----------------- MONEDA ------------------
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/currency"
+                    android:textSize="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="8dp"
+                    android:textColor="#000"
+                    android:layout_marginTop="30dp">
+                </TextView>
+                <Spinner
+                    android:id="@+id/spmoneda"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="30dp">
+                </Spinner>
+
+            </TableRow>
+            <Button
+                android:id="@+id/btnguardar"
+                android:layout_width="157dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="115dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="110dp"
+                android:text="Guardar"
+                android:textAllCaps="false"
+                android:textColor="#000"
+                >
+            </Button>
+        </TableLayout>
+    </LinearLayout>
+</FrameLayout>

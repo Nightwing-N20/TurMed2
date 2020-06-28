@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listaespecialidad">
+        <item>Anatomia Patalogica</item>
+        <item>Cirugia General</item>
+        <item>Ginecologia y Obstericia</item>
+        <item>Medicina Familiar</item>
+        <item>Neumologia</item>
+        <item>Patologia Clinica</item>
+        <item>Traumatologia y Ortopedia</item>
+        <item>Anestesiologia</item>
+        <item>Imagenologia diagbostica y Terapeutica</item>
+        <item>Medicina Interna</item>
+        <item>Oftalmologia</item>
+        <item>Pediatria</item>
+        <item>Geriatria</item>
+    </string-array>
+    <!--TODO:duracion de citas-->
+    <string-array name="listacitas">
+        <item>30min</item>
+        <item>1hr</item>
+        <item>2hrs</item>
+    </string-array>
+    <!--TODO: tipo de moneda-->
+    <string-array name="listamoneda">
+        <item>MXN</item>
+        <item>US</item>
+    </string-array>
+
+</resources>

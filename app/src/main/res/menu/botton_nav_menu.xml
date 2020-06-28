@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_agenda"
+        android:icon="@drawable/agendablackold_64"
+        android:title="Agenda"
+        />
+    <item
+        android:id="@+id/nav_pacientes"
+        android:icon="@drawable/pacientesoldblack_64"
+        android:title="Pacientes" />
+    <item
+        android:id="@+id/nav_configuracion"
+        android:icon="@drawable/configuracion_64"
+        android:title="Configuracion" />
+</menu>
