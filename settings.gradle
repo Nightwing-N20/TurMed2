@@ -1,0 +1,3 @@
+include ':android'
+rootProject.name='TurMed'
+include ':app'
