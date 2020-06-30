@@ -98,6 +98,8 @@
                     android:background="@drawable/edittextstle"
                     android:layout_marginTop="30dp"
                     android:padding="3dp"
+                    android:text="$"
+                    android:inputType="numberDecimal"
                     >
                 </EditText>
             </TableRow>
